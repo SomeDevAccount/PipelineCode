@@ -6,5 +6,10 @@ pipeline {
         echo 'Build Started'
       }
     }
+    stage('Sleep') {
+      steps {
+        sleep 12
+      }
+    }
   }
 }
